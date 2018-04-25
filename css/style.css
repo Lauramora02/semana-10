@@ -1,0 +1,71 @@
+
+.row {
+  display: flex;
+}
+body {
+  margin: 0 auto;  /* esta propiedad me centraliza la pagina completa, por eso usamos el selector body */
+  padding: 0px;
+  border: 0px;
+  width: 960px; 
+  background-color: black;
+}
+
+header { 
+  position:relative;
+  width:960px;
+  height:283px;
+  text-align:center;
+}
+
+
+#banner nav {
+    position:absolute;
+    top:240px;
+    background:#230b03;
+    font-size: 15px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 0;
+    width: 960px; 
+    z-index:20; 
+
+  }
+
+  #banner nav ul {
+    list-style: none; 
+    margin: 0 auto; 
+    width: 500px; 
+  }
+
+  #banner nav li {
+    float: left; 
+    display: inline; 
+    margin: 0;
+  }
+  
+  #banner nav a:link, #banner nav a:visited {
+    color: #a38f74;
+    display: inline-block;
+    height: 20px;
+    padding: 5px 1.5em;
+    text-decoration: none;
+  }
+
+  #banner nav a:hover, #banner nav a:active,
+  #banner nav .active a:link, #banner nav .active a:visited {
+    background: #a38f74;
+    color: #fff;
+  }
+
+.column-1, .column-2,{
+  flex: 1;
+  border:1px solid red;
+  text-align: center;
+  margin: 5px;
+  padding: 13px;
+}
+
+.row div img {
+  border-radius: 40%;
+  width: 200px;
+}

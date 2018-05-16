@@ -6,8 +6,9 @@ body {
   margin: 0 auto;  
   padding: 0px;
   border: 0px;
-  width: 960px; 
+  width: 1060px; 
   background-color: black;
+  background-image: 
 }
 
 header { 
@@ -59,11 +60,11 @@ header {
 
 .column-1, .column-2,{
   flex: 1;
-  border:3px solid red;
+  border:50px solid red;
   text-align: center;
   background-color: grey;
-  margin: 20px;
-  padding: 13px;
+  margin: 40px;
+  padding: 23px;
   color: white;
 }
 
